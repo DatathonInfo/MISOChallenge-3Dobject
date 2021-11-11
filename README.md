@@ -42,7 +42,6 @@ MISO AI Challenge 2021은 '인공지능 학습용 데이터 구축 사업'을 �
    </tr>
 
 </table>
-*동점자 발생 시에는 먼저 제출한 순서대로 리더보드에 표시되며, 리더보드 순위대로 시상
 
    
 ## 데이터톤 일정
@@ -56,29 +55,24 @@ MISO AI Challenge 2021은 '인공지능 학습용 데이터 구축 사업'을 �
         <td align=center>
       <strong>참가 신청</strong><br>
     </td>
-    <td style="text-align:center"> 2021년 10월 07일 ~ 10월 31일</td>
+    <td style="text-align:center"> 2021년 10월 07일 ~ 11월 14일</td>
     <td> 온라인(https://misochallenge.com) </td>
   </tr>
     <tr>
         <td align=center>
       <strong>서류심사</strong><br>
     </td>
-    <td style="text-align:center">2021년 11월 05일</td>
+    <td style="text-align:center">2021년 11월 15일</td>
         <td align=center> 합격팀 개별 통보
     </td>
    </tr>
-     <tr>
-          <td align=center><strong>개회식 및 설명회</strong><br>
-    </td>
-    <td style="text-align:center">2021년 11월 08일</td>
-        <td align=center> 온라인
     </td>
    </tr>
      <tr>
     <td align=center>
       <strong>본선</strong><br>
     </td>
-    <td style="text-align:center">2021년 11월 08일 ~ 11월 15일</td>
+    <td style="text-align:center">2021년 11월 16일 ~ 11월 23일</td>
  <td align=center> 온라인
     </td>
    </tr>
@@ -87,12 +81,13 @@ MISO AI Challenge 2021은 '인공지능 학습용 데이터 구축 사업'을 �
 
 
 ## 심사기준
-- 
-- 
+- 2D Reprojection Error
+- IoU (Intersection of Union)
 
 
 ## 추진
 - 주최: 과학기술정보통신부, 한국지능정보사회진흥원
 - 주관: (주)미소정보기술
+
 ## 문의 및 FAQ
 issue 페이지에 문의글을 남기시면 담당자가 답변드립니다. <br>
