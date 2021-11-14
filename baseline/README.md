@@ -9,8 +9,8 @@
 ***
 
 ## 1. 데이터셋 파일 경로
-* 학습 데이터셋 : /mnt/hackerton/dataset/[학습데이터] (원본 + 세그멘테이션/큐브 라벨 정보를 포함)
-* 배경 영상 : /mnt/hackerton/BG/JPEGImage (학습시 다양한 배경 증강을 위해 활용할 이미지를 포함)
+* 학습 데이터셋 : /mnt/hackathon/dataset/[학습데이터] (원본 + 세그멘테이션/큐브 라벨 정보를 포함)
+* 배경 영상 : /mnt/hackathon/BG/JPEGImage (학습시 다양한 배경 증강을 위해 활용할 이미지를 포함)
 * 개발 코드 경로: ~/[프로젝트명] 
 * 데이터 정보 : ~/[프로젝트명]/data (전처리 과정시 자동생성됨) 
 
@@ -22,7 +22,7 @@
 ```
 line 26:
 # 학습 데이터 상위 디렉토리
-dataset_base_dir="/mnt/hackerton/dataset"
+dataset_base_dir="/mnt/hackathon/dataset"
 
 # 학습 데이터의 이름
 data = "010304.소스용기4"

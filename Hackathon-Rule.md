@@ -26,9 +26,9 @@
   * 파일에 대한 변경은 불가하며, 파일을 로컬서버로 복사해서 사용은 가능하나 권장하지 않습니다. 
     * [baseline 코드 참조](https://github.com/qnqnckck/hackerton-object_3d/tree/main/baseline)
 * NAS 구성은 다음과 같습니다.
-  * 기본 경로 : /mnt/hackerton
-  * 학습 데이터셋 : /mnt/hackerton/dataset/ 
-  * 코드 제출 : /mnt/hackerton/submit/[참가자번호]/
+  * 기본 경로 : /mnt/hackathon
+  * 학습 데이터셋 : /mnt/hackathon/dataset/ 
+  * 코드 제출 : /mnt/hackathon/submit/[참가자번호]/
 
 ## 3. 서버 사용
 ### 3.1. 서버 접속 방법 
@@ -46,7 +46,7 @@ ssh -l [접속계정] -p [포트] [ip]
 cd ~
 mkdir [참가자번호]
 ```
-* (권장) conda 사용시 가상환경 이름은 hackerton으로 권장합니다.
+* (권장) conda 사용시 가상환경 이름은 hackathon 권장합니다.
 
 ## 4. 최종 제출
  최종 제출 코드는 NAS의 다음 경로로 파일 복사하여 제출합니다.
