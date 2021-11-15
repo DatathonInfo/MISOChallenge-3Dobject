@@ -130,7 +130,12 @@ def change_background(img, mask, bg):
 def load_data_detection(imgpath, shape, jitter, hue, saturation, exposure, bgpath, num_keypoints, max_num_gt):
     data = imgpath.split('/')[len(imgpath.split('/')) - 4]
     labpath = os.path.join('data', data, 'labels', imgpath.split('/')[len(imgpath.split('/')) - 1].replace('.png', '.txt'))
-    maskpath = imgpath.replace('원천데이터', '라벨링데이터').replace('.Images', '.Mask').replace('.png', '_b.png')
+
+    type = ".Images"
+    if "투명" in imgpath:
+        type = ".TR"
+
+    maskpath = imgpath.replace('원천데이터', '라벨링데이터').replace(type, '.Mask').replace('.png', '_b.png')
 
     ## data augmentation
     img = Image.open(imgpath).convert('RGB')

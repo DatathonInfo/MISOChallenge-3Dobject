@@ -29,9 +29,13 @@ data = "070702.라이터"
 # ratio
 train_ratio = 0.8  # test_ratio = 1 -train_ratio
 
+type=".Images"
+if "투명" in dataset_base_dir:
+    type=".TR"
+
 # 원천데이터
 origin_data_dir = dataset_base_dir + "/" + data + "/" + data + ".원천데이터"
-origin_image_dir = origin_data_dir + "/" + data + ".Images"
+origin_image_dir = origin_data_dir + "/" + data + type
 origin_threed_shape_data_dir = origin_data_dir + "/" + data + ".3D_Shape"
 
 # 라벨링데이터
