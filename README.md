@@ -5,11 +5,12 @@
 인공지능 개발에 도전해보세요! <p>
 
  
-2021 미소 인공지능 모델 개발 챌린지(MISO AI Challenge 2021)는 '인공지능 학습용 데이터 구축 사업'을 통해 구축된 학습용 실생활 투명객체 3D 및 대용량 3D 객체 데이터를 활용해 3D 탐지 및 위치 추정(6D Pose Estimation) AI 모델을 개발하는 데이터톤 대회입니다. <p>
+2021 미소 인공지능 모델 개발 챌린지(MISO AI Challenge 2021)는 '인공지능 학습용 데이터 구축 사업'을 통해 구축된 학습용 실생활 투명객체 3D 및 대용량 3D 객체 데이터를 활용해 3D 탐지 및 위치 추정(6D Pose Estimation) AI 모델을 개발하는 데이터톤 대회입니다.
 <br>
  
 본 대회는 NAVER CLOUD PLATFORM의 고성능 클라우드 인프라 상에서 진행되며, 참가팀별 GPU 서버가 제공됩니다.
 자세한 사항은 [Hackathon rule](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/Hackathon-Rule.md)을 참고하시기 바랍니다.  
+ 
 <br>
  
 ## 챌린지
@@ -25,7 +26,10 @@
           대상(1팀), 최우수상(1팀), 우수상(1팀)을 선정하여 시상이 진행됩니다.
 
  
-   
+- 자세한 대회 방식 및 데이터 설명은 [여기](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/%5BMISOChallenge2021%5D%20Track1%20%EA%B0%9D%EC%B2%B4%203D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20-%20%EC%82%AC%EC%A0%84%20%EC%84%A4%EB%AA%85%EC%84%9C.pdf)를 참조하세요.
+ 
+<br> 
+ 
 ## 시상 및 혜택
 - 총상금: 500 만원<br>
 
@@ -58,8 +62,9 @@
    </tr>
 
 </table>
+ 
+<br>
 
-   
 ## 데이터톤 일정
 <table class="tbl_schedule">
   <tr>
@@ -104,15 +109,19 @@
 </table>
 ※ 참가자에게는 일정 및 진행사항에 대해 개별 안내드립니다.<br>
 
+<br>
 
 ## 심사기준
 - 2D Reprojection Error
 - IoU (Intersection of Union)
 
+<br>
 
-## 추진
+## 주최 및 주관 
 - 주최: 과학기술정보통신부, 한국지능정보사회진흥원
 - 주관: (주)미소정보기술, (주)위지윅스튜디오, 충남대, 숭실대 산학협력단, (주)미래융합정보기술, (주)매트릭스 리서치, (주)이오이스, (주)유니토 엔터테인먼트, (주)에스에스엘
 
+<br>
+
 ## 문의 및 FAQ
-issue 페이지에 문의글을 남기시면 담당자가 답변드립니다. <br>
+ssue 페이지에 문의글을 남기시면 담당자가 답변드립니다. <br>
