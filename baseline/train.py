@@ -161,7 +161,7 @@ def test(epoch, niter):
     # Iterate through test examples 
     # data는 (1,3,672,672) 크기의 이미지 한장, target은 (1,1050) 크기의 최대 50장 gt
     for batch_idx, (data, target) in enumerate(test_loader):
-        with open(test_loader.dataset.lines[batch_idx].replace('origin','labels').replace('Images','3D_json').replace('_NT','_TR').replace('.png','.json').replace('\n','')) as f:
+        with open(test_loader.dataset.lines[batch_idx].replace('원천데이터','라벨링데이터').replace('Images','3D_json').replace('_NT','_TR').replace('.png','.json').replace('\n','')) as f:
             abcde = json.load(f)
             fx = float(abcde['metaData']['Fx'])
             fy = float(abcde['metaData']['Fy'])
