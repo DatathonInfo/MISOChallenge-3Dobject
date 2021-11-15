@@ -125,3 +125,8 @@
 
 ## 문의 및 FAQ
 ssue 페이지에 문의글을 남기시면 담당자가 답변드립니다. <br>
+
+<br>
+
+## REFERENCES
+- [PAPER](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/REFERENCE.MD)
