@@ -23,7 +23,7 @@ LINEMOD 데이터 구성을 위해, 다음 파일들을 생성합니다.
 - [폴더명].data
 ##############################################################################################'''
 
-dataset_base_dir="/mnt/hackerton/dataset/Dataset/08. 대용량객체3D/"
+dataset_base_dir="/mnt/hackerton/dataset/Dataset/08.대용량객체3D/"
 data = "070702.라이터"
 
 # ratio
