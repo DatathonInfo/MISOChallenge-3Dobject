@@ -115,6 +115,8 @@
 - 2D Reprojection Error
 - IoU (Intersection of Union)
 
+**제공되는 20개의 객체에 대한 학습결과를 제출해야하며, 각 객체의 IoU와 2D Reprojection error를 Projection 백분율로 변환한 값의 총합을 심사기준 정합니다.**
+
 <br>
 
 ## 주최 및 주관 
