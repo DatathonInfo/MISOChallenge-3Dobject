@@ -61,7 +61,7 @@ python making_txtlables.py
 ```
 mkdir cfg
 wget https://github.com/microsoft/singleshotpose/blob/master/cfg/yolo-pose.cfg -P cfg
-wget https://pjreddie.com/media/files/darknet19_448.conv.23 -P cfg
+wget --no-check-certificate https://pjreddie.com/media/files/darknet19_448.conv.23 -P cfg
 ```
 ### 3.2. 학습
 ```
