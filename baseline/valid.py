@@ -107,7 +107,7 @@ def valid(datacfg, modelcfg, weightfile):
     # Iterate through test batches (Batch size for test data is 1)
     count = 0
     for batch_idx, (data, target) in enumerate(test_loader):
-        with open(test_loader.dataset.lines[batch_idx].replace('origin', 'labels').replace('Images', '3D_json').replace('.png', '.json').replace('\n', ''), encoding='UTF-8') as f:
+        with open(test_loader.dataset.lines[batch_idx].replace('원천데이터', '').replace('Images', '3D_json').replace('.png', '.json').replace('\n', ''), encoding='UTF-8') as f:
             label_info = json.load(f)
             # Read intrinsic camera parameters
             fx = float(label_info['metaData']['Fx'])
