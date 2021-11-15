@@ -2,7 +2,7 @@
 6D 포즈를 예측하는 모델중 [Microsoft/singleshotpose](https://github.com/microsoft/singleshotpose) 기반으로 제공합니다.
 해당 알고리즘에 대한 정보는 개발 코드에 대한 github 내용을 참조하시기 바랍니다. 각 라인별로 자세한 주석을 포함하고 있습니다.
 
-**코드의 추가/변경 내역은 [DIFF_CODE.md](https://github.com/qnqnckck/hackerton-object_3d/blob/main/baseline/DIFF_CODE.md)를 확인하시기 바랍니다.**
+**코드의 추가/변경 내역은 [DIFF_CODE.md](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/baseline/DIFF_CODE.md)를 확인하시기 바랍니다.**
 
  데이터셋은 [LINEMOD](https://paperswithcode.com/dataset/linemod-1)를 동일한 구조를 사용합니다. LINEMOD는 6D 포즈 추정을 위한 대표적인 벤치마크로 RGB+D 데이터셋입니다. 대회에 제공될 데이터셋도 LINEMOD와 동일한 구조 변환하기 위해 데이터 전처리 과정을 필요로 합니다. 변환 방법 및 과정은 튜토리얼 내에 함께 설명합니다.
 
@@ -10,7 +10,7 @@
 
 ## 1. 데이터셋 파일 경로
 * 학습 데이터셋 : /mnt/hackerton/dataset/[학습데이터] (원본 + 세그멘테이션/큐브 라벨 정보를 포함)
-* 배경 영상 : /mnt/hackerton/BG/JPEGImage (학습시 다양한 배경 증강을 위해 활용할 이미지를 포함)
+* 배경 영상 : /mnt/hackerton/dataset/BG/JPEGImage (학습시 다양한 배경 증강을 위해 활용할 이미지를 포함)
 * 개발 코드 경로: ~/[프로젝트명] 
 * 데이터 정보 : ~/[프로젝트명]/data (전처리 과정시 자동생성됨) 
 
@@ -22,7 +22,7 @@
 ```
 line 26:
 # 학습 데이터 상위 디렉토리
-dataset_base_dir="/mnt/hackerton/dataset"
+dataset_base_dir="/mnt/hackerton/dataset/07.투명객체3D"
 
 # 학습 데이터의 이름
 data = "010304.소스용기4"
