@@ -9,6 +9,7 @@
 <br>
  
 본 대회는 NAVER CLOUD PLATFORM의 고성능 클라우드 인프라 상에서 진행되며, 참가팀별 GPU 서버가 제공됩니다.
+자세한 사항은 [Hackathon rule](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/Hackathon-Rule.md)을 참고하시기 바랍니다.  
 <br>
  
 ## 챌린지
