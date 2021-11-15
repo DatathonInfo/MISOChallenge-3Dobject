@@ -96,7 +96,7 @@
       <strong>결과 제출</strong><br>
     </td>
     <td style="text-align:center">2021년 11월 24일 18:00까지</td>
- <td align=center> 이메일 제출 (3dobject@misoinfo.co.kr)
+ <td align=center> 이메일 제출 (3D@misoinfo.co.kr)
     </td>
    </tr>
 
