@@ -132,7 +132,6 @@ if not (os.path.isdir("data")):
 
 if not (os.path.isdir(os.path.join("data",data))):
     os.makedirs(os.path.join("data",data))
-data_file = open('data/' + data  + '.data', 'w')
 
 dataProperty = DataProperty();
 dataProperty.setTrain('data/' + data + '/train.txt')
@@ -164,7 +163,7 @@ with open(labeling_threed_json_dir + '/' + name_list[0], 'r') as f:
     dataProperty.setU0(data2['metaData']['PPx'])
     dataProperty.setV0(data2['metaData']['PPy'])
 
-with open(os.path.join('cfg', data + ".data"), 'w') as file:
+with open(os.path.join('data', data + ".data"), 'w') as file:
     file.write(dataProperty.toString())
 
 ##################################
