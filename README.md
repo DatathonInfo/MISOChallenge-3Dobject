@@ -8,7 +8,7 @@
 2021 미소 인공지능 모델 개발 챌린지(MISO AI Challenge 2021)는 '인공지능 학습용 데이터 구축 사업'을 통해 구축된 학습용 실생활 투명객체 3D 및 대용량 3D 객체 데이터를 활용해 3D 탐지 및 위치 추정(6D Pose Estimation) AI 모델을 개발하는 데이터톤 대회입니다.
 <br>
  
-본 대회는 NAVER CLOUD PLATFORM의 고성능 클라우드 인프라 상에서 진행되며, 참가팀별 GPU 서버가 제공됩니다.
+본 대회는 NAVER CLOUD PLATFORM의 고성능 클라우드 인프라 상에서 진행되며, 참가팀별 GPU 서버가 제공됩니다.<p>
 자세한 사항은 [Hackathon rule](https://github.com/DatathonInfo/MISOChallenge-3Dobject/blob/main/Hackathon-Rule.md)을 참고하시기 바랍니다.  
  
 <br>
