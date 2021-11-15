@@ -1,5 +1,6 @@
 # 객체 3D 해커톤 진행 설명 및 규칙
  해커톤 진행시 참여자에게 제공되는 GPU 서버 스펙 및 제약사항에 대해 설명합니다.
+ (스크립트 계정 및 NAS 마운트시 네이밍이 hackathon => hackerton으로 생성된 점 참고 부탁드립니다.)
 ## 1. 제약사항
 * 개발언어는 파이썬만 사용하도록 제한합니다. 
    
@@ -18,12 +19,12 @@
 * Anaconda3-5.3.1
 
 ### 2.3. 서버구성
-* 참가자들에게 학습 데이터셋을 공통으로 제공하기 위해 공용 NAS가 /mnt/hackathon 경로로 마운트 되어 있습니다.
+* 참가자들에게 학습 데이터셋을 공통으로 제공하기 위해 공용 NAS가 /mnt/hackerton 경로로 마운트 되어 있습니다.
   * 파일에 대한 변경은 불가하며, 파일을 로컬서버로 복사해서 사용은 가능하나 권장하지 않습니다. 
     * [baseline 코드 참조](https://github.com/qnqnckck/hackerton-object_3d/tree/main/baseline)
 * NAS 구성은 다음과 같습니다.
-  * 기본 경로 : /mnt/hackathon
-  * 학습 데이터셋 : /mnt/hackathon/dataset/ 
+  * 기본 경로 : /mnt/hackerton
+  * 학습 데이터셋 : /mnt/hackerton/dataset/ 
 
 ## 3. 서버 사용
 ### 3.1. 서버 접속 방법 
