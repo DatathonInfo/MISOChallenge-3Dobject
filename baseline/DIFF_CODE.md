@@ -11,23 +11,17 @@
 * **dataset.py**
 ```
 /* line 119: 데이터셋 경로 변경 */
-labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4],'labels',imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
+labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4],'라벨링데이터',imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
 ```
 
 * **image.py**
 ```
 /* line 131: 데이터셋 경로 변경 */
-labpath = imgpath.replace('origin', 'labels').replace('Images', 'using_data').replace('_NT','_TR').replace('.png','.txt')
-maskpath = imgpath.replace('origin', 'labels').replace('Images', 'Mask').replace('_NT','_TR').replace('.png', '_b.png')
+data = imgpath.split('/')[len(imgpath.split('/')) - 4]
+labpath = os.path.join('data', data, 'labels', imgpath.split('/')[len(imgpath.split('/')) - 1].replace('.png', '.txt'))
+maskpath = imgpath.replace('원천데이터', '라벨링데이터').replace('.Images', '.Mask').replace('.png', '_b.png')
 ```
  
-* **image.py**
-```
-/* line 131: 데이터셋 경로 변경 */
-labpath = imgpath.replace('origin', 'labels').replace('Images', 'using_data').replace('_NT','_TR').replace('.png','.txt')
-maskpath = imgpath.replace('origin', 'labels').replace('Images', 'Mask').replace('_NT','_TR').replace('.png', '_b.png')
-```
-
 * **Mesh.py**
 ```
 /* line 137: 병렬처리를 위한 코드 수정 */
@@ -49,7 +43,7 @@ num_anchors          = model.module.num_anchors
 
 /* line 162: 데이터셋 경로 변경 */
 for batch_idx, (data, target) in enumerate(test_loader):
-        with open(test_loader.dataset.lines[batch_idx].replace('origin','labels').replace('Images','3D_json').replace('_NT','_TR').replace('.png','.json').replace('\n','')) as f:
+        with open(test_loader.dataset.lines[batch_idx].replace('원천데이터','라벨링데이터').replace('Images','3D_json').replace('_NT','_TR').replace('.png','.json').replace('\n','')) as f:
             abcde = json.load(f)
             fx = float(abcde['metaData']['Fx'])
             fy = float(abcde['metaData']['Fy'])
@@ -62,7 +56,7 @@ with torch.no_grad():
   data = data
   
 /* line 322: 데이터셋 경로 변경 */
-bg_file_names = get_all_files('/mnt/dataset/VOCdevkit/VOC2012/JPEGImages')
+bg_file_names = get_all_files('/mnt/hackerton/dataset/VOCdevkit/VOC2012/JPEGImages')
 
 /* line 331: 제거 */
 #fx          = float(data_options['fx'])
