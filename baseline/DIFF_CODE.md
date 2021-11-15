@@ -11,7 +11,7 @@
 * **dataset.py**
 ```
 /* line 119: 데이터셋 경로 변경 */
-labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4],'라벨링데이터',imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
+labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4], 'labels', imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
 ```
 
 * **image.py**

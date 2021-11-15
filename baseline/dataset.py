@@ -116,7 +116,7 @@ class listDataset(Dataset):
     
             # Read the validation labels, allow upto 50 ground-truth objects in an image
             #labpath = imgpath.replace('origin', 'labels').replace('Images', 'using_data').replace('_NT','_TR').replace('.jpg', '.txt').replace('.png','.txt')
-            labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4],'라벨링데이터',imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
+            labpath = os.path.join('data', imgpath.split('/')[len(imgpath.split('/'))-4], 'labels', imgpath.split('/')[len(imgpath.split('/'))-1].replace('.png', '.txt'))
             
             num_labels = 2*self.num_keypoints+3 # +2 for ground-truth of width/height , +1 for class label
             label = torch.zeros(self.max_num_gt*num_labels)
