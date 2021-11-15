@@ -6,6 +6,8 @@
 
  데이터셋은 [LINEMOD](https://paperswithcode.com/dataset/linemod-1)를 동일한 구조를 사용합니다. LINEMOD는 6D 포즈 추정을 위한 대표적인 벤치마크로 RGB+D 데이터셋입니다. 대회에 제공될 데이터셋도 LINEMOD와 동일한 구조 변환하기 위해 데이터 전처리 과정을 필요로 합니다. 변환 방법 및 과정은 튜토리얼 내에 함께 설명합니다.
 
+**제공되는 [객체3D데이터+정의서.pdf](https://github.com/DatathonInfo/MISOChallenge-3Dobject/files/7535380/3D.%2B.pdf)를 꼭참조하시기 바랍니다.**
+
 ***
 
 ## 1. 데이터셋 파일 경로
