@@ -23,19 +23,19 @@ LINEMOD 데이터 구성을 위해, 다음 파일들을 생성합니다.
 - [폴더명].data
 ##############################################################################################'''
 
-dataset_base_dir="/mnt/hackerton/dataset"
-data = "010304.source4"
+dataset_base_dir="/mnt/hackerton/dataset/Dataset/08. 대용량객체3D/"
+data = "070702.라이터"
 
 # ratio
 train_ratio = 0.8  # test_ratio = 1 -train_ratio
 
 # 원천데이터
-origin_data_dir = dataset_base_dir + "/" + data + "/" + data + ".origin"
+origin_data_dir = dataset_base_dir + "/" + data + "/" + data + ".원천데이터"
 origin_image_dir = origin_data_dir + "/" + data + ".Images"
 origin_threed_shape_data_dir = origin_data_dir + "/" + data + ".3D_Shape"
 
 # 라벨링데이터
-labeling_dir = dataset_base_dir + "/" + data + "/" + data + ".labels"
+labeling_dir = dataset_base_dir + "/" + data + "/" + data + ".라벨링데이터"
 labeling_threed_json_dir = labeling_dir + "/" + data + ".3D_json"
 
 ##################################
