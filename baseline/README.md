@@ -60,7 +60,8 @@ python making_txtlables.py
 ### 3.1. 초기 가중치 파일과 모델 cfg 파일 다운로드
 ```
 mkdir cfg
-wget https://github.com/microsoft/singleshotpose/blob/master/cfg/yolo-pose.cfg -P cfg
+// NAS에서 복사 
+cp /mnt/hackerton/dataset/cfg/yolo-pose.cfg ./cfg/ 
 wget --no-check-certificate https://pjreddie.com/media/files/darknet19_448.conv.23 -P cfg
 ```
 ### 3.2. 학습
