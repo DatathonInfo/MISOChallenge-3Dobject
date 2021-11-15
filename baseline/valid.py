@@ -250,7 +250,7 @@ def valid(datacfg, modelcfg, weightfile):
         t5 = time.time()
 
     # Compute 2D projection error, 6D pose error, 5cm5degree error
-    px_threshold = 10  # 5 pixel threshold for 2D reprojection error is standard in recent sota 6D object pose estimation works
+    px_threshold = 20  # 5 pixel threshold for 2D reprojection error is standard in recent sota 6D object pose estimation works
     eps = 1e-5
     total_iou = len(np.where(np.array(iou_acc) >= 0.5)[0]) * 100 / (len(iou_acc) + eps)
     acc = len(np.where(np.array(errs_2d) <= px_threshold)[0]) * 100. / (len(errs_2d) + eps)

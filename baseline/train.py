@@ -250,7 +250,7 @@ def test(epoch, niter):
         t5 = time.time()
 
     # Compute 2D projection, 6D pose and 5cm5degree scores
-    px_threshold = 10 # 5 pixel threshold for 2D reprojection error is standard in recent sota 6D object pose estimation works 
+    px_threshold = 20 # 5 pixel threshold for 2D reprojection error is standard in recent sota 6D object pose estimation works
     eps          = 1e-5
     acc          = len(np.where(np.array(errs_2d) <= px_threshold)[0]) * 100. / (len(errs_2d)+eps)
     acc3d        = len(np.where(np.array(errs_3d) <= vx_threshold)[0]) * 100. / (len(errs_3d)+eps)
